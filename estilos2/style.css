@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+/* 
+    paleta de cores
+    azul escuro: #1E2340
+    azul claro: #3C4CA6
+    azul meia bomba: #2F3273
+    roxo #7538DB
+    
+*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body, html{
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(to right, #070924,#30175a);
+}
+main{
+    height: 100vh;
+    width: 100vw;
+}
+#login{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#login > #imagem{
+    background-image: url(../imagens2/galaxy.jpg);
+    background-position: center center;
+    background-size: cover;
+    border-radius: 10px 10px 0px 0px;
+    height: 250px;
+    width: 400px;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.678);
+}
+#login > #formulario{
+    width: 400px;
+    height: 300px;
+    border-radius: 0px 0px 10px 10px;
+    background-color: #2e1757;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.678);
+}
+h1{
+    text-align: center;
+    padding-top: 10px;
+    color: rgb(102, 101, 101);
+}
+p{
+    padding: 10px;
+    text-indent: 14px;
+}
+
+input{
+    padding: 10px;
+    border: 0px;
+    display: block;
+    font-size: 1em;
+    width: 300px;
+    height: 40px;
+    background-color: gray;
+    border-radius: 10px;
+    box-sizing: border-box;
+
+}
+
